@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fpswm"
+version = "1.0.0"
+description = "FPS-WM deep image watermarking with a content-adaptive residual clamp"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+
+[tool.setuptools]
+packages = ["fpswm"]
